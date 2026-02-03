@@ -8,7 +8,7 @@
 #property version   "1.00"
 
 input int MagicID = 0;  // Set to 0 to track ALL positions, or set specific MagicID to filter
-input string VPS_IP = "154.43.52.15";  // VPS IP address
+input string VPS_IP = "0.0.0.0";  // VPS IP address
 input int VPS_Port = 5000;  // VPS port number
 
 ulong trackedPositions[];  // Track position tickets to avoid duplicates
